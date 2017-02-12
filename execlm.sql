@@ -1,0 +1,1 @@
+﻿select lm_plr(array_agg(uw_gpa::float),array_agg(first_term_gpa))from all_grads;
